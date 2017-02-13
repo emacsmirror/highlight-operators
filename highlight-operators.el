@@ -39,7 +39,7 @@
   :group 'font-lock-extra-types
   :group 'faces)
 
-(defface highlight-operators-face '((t (:inherit 'font-lock-builtin-face)))
+(defface highlight-operators-face '((t (:inherit font-lock-builtin-face)))
   "Face for operators (e.g. '+' or '&') in programming modes.
 This face is only used if `highlight-operators-mode' is turned on."
   :group 'highlight-operators)
