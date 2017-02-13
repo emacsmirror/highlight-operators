@@ -64,7 +64,7 @@ This face is only used if `highlight-operators-mode' is turned on."
         (font-lock-add-keywords nil font-lock-spec)
       (font-lock-remove-keywords nil font-lock-spec))
     (when (called-interactively-p 'any)
-      (font-lock-fontify-buffer))))
+      (font-lock-flush))))
 
 ;;;###autoload
 (define-globalized-minor-mode global-highlight-operators-mode
